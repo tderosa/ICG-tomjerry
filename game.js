@@ -7,7 +7,7 @@ var currScore = 0;
 var ammo = {
 	name: "ammo",
 	shape: "square",
-	image: "waterballoon.png",
+	image: "assets/waterballoon.png",
 	imageStretchToFit: true,
 	width: 1.5,
 	height: 1,
@@ -22,7 +22,7 @@ var ammo = {
 gameWorld.createEntity({
 	name: "agent",
 	shape: "circle",
-	image: "jerry.png",
+	image: "assets/jerry.png",
 	imageStretchToFit: true,
 	radius: 1.2,
 	x: 1,
@@ -55,7 +55,7 @@ gameWorld.createEntity({
 var target = {
 	name: "target",
 	shape: "circle",
-	image: "tom.png",
+	image: "assets/tom.png",
 	radius: 1.4,
 	imageStretchToFit: true,
 	onImpact: function(entity, force) {
