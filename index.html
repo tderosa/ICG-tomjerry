@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Game</title>
+		<link rel="stylesheet" type="text/css" href="theme.css">
+	</head>
+	<body>
+		<canvas id="game" width="800" height="400">
+            your browser doesn't support canvas
+        </canvas>
+        <div id="instructions">
+            <h2>Tom and Jerry Game</h2>
+            <h4>Instructions:</h4>
+            Use Jerry to fire water balloons at Tom to earn points.
+            Score 150 points to win the game, but don't let Tom catch Jerry!<br>
+            <h4>Controls:</h4>
+            I - Move up<br>
+            K - Move down<br>
+            F - Fire pellet<br>
+            <br>
+        	<h4>Score: <span id="score">0</span><h4>
+	        <div id="statusPanel">
+	        	<h1>You win!!!</h1>
+	        </div>
+        </div>
+        <script src="Box2dWeb-2.1.a.3.min.js"></script>
+        <script src="boxbox.min.js"></script>
+        <script src="game.js"></script>	
+	</body>
+</html>
